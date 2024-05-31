@@ -1,0 +1,342 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+    font-weight: 300;
+    background-image: url("BGregistlogin.jpg");
+    background-size: cover;
+    background-position: center;
+    background-size: 200% 200%;
+    background-repeat: repeat;
+    animation: floatBackground 10s infinite linear;
+}
+
+@keyframes floatBackground {
+    0% {
+        background-position: 0% 0%;
+    }
+    50% {
+        background-position: 100% 100%;
+    }
+    100% {
+        background-position: 0% 0%;
+    }
+}
+
+
+.wrapper {
+    width: 1200px;
+    margin: auto;
+    position: relative;
+  
+}
+
+.kolomtutor {
+    background-color: #1e315c; /* Atur warna latar belakang */
+    padding: 20px; /* Atur padding untuk memberi jarak konten dari tepi area */
+    margin-bottom: 20px; /* Tambahkan margin bawah untuk memberi jarak antara kolom */
+    color: white; /* Atur warna teks menjadi putih */
+}
+.kolomtutor h2 {
+    color: white; /* Atur warna teks pada elemen h2 menjadi putih */
+}
+
+
+
+.logo a {
+    font-size: 30px;
+    font-weight: 800;
+    float: left;
+    font-family: 'Lucida Handwriting', cursive;
+    font-weight: 500px;
+    color: #102a47;
+    letter-spacing: 4px; /* Adjust the spacing as needed */
+}
+
+.menu {
+    float: right;
+    
+    
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky; 
+    top: 0;
+    background: #FFFFFF;
+    z-index: 1;
+    box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.1); /* Menambahkan efek bayangan */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    padding-left: 20px;
+}
+
+nav ul li {
+    float: left;
+}
+
+
+nav ul li a:hover {
+    text-decoration: underline;
+    transition: background-color 0.3s, color 0.3s; /* Add transition effects */
+
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kolom .deskripsi {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Montserrat';
+    color: #364f6b;
+}
+
+h2 {
+    font-family: 'Montserrat';
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #364f6b;
+    width: 100%;
+    line-height: 50px;
+}
+
+nav ul li a {
+    
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #1a0663;
+    cursor: pointer;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+a.tbl-biru {
+    background: #1e315c;
+    border-color: #1a0663;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s; /* Add transition effects */
+
+}
+
+a.tbl-biru:hover {
+    background: #6593c8;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s; /* Add transition effects */
+
+}
+nav ul li a:hover{
+    background: hsl(215, 57%, 79%);
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s; /* Add transition effects */
+
+}
+
+p {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+.justified-text {
+    text-align: justify; /* Menambahkan justifikasi teks */
+}
+
+.tengah {
+    text-align: center;
+    width: 100%;
+}
+
+.tutor-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kartu-tutor {
+    width: 20%; /* Ubah lebar kartu tutor */
+    margin: 0 auto;
+    text-align: center;
+}
+
+.kartu-tutor img {
+    width: 100%; /* Ukuran gambar akan mengisi 100% dari lebar kartu tutor */
+    max-width: 150px; /* Ukuran maksimum gambar */
+    height: auto;
+    border-radius: 50%;
+}
+
+.kartu-tutor p {
+    font-family: 'Montserrat';
+    font-weight: 800;
+    font-size: 25px;
+    text-align: center;
+    color: #364f6b;
+}
+
+.partner-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kartu-partner {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.kartu-partner img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+#contact {
+    background: #1e315c;
+    padding:50px 0px 50px 0px;
+}
+
+.footer {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    color: #f7f8f9;
+}
+
+.footer-section {
+    width: 20%;
+    margin: 0 auto;
+}
+
+h3 {
+    font-family: 'Montserrat';
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #f7f8f9;
+    width: 100%;
+    line-height: 50px;
+}
+
+#copyright {
+    text-align: center;
+    width: 100%;
+    padding: 50px 0px 50px 0px;
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 991.98px) {
+    .wrapper {
+        width: 90%;
+    }
+
+    .logo a {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    nav .menu {
+        width: 100%;
+        margin: 0;
+    }
+
+    nav .menu ul {
+        text-align: center;
+        margin: auto;
+        line-height: 60px;
+    }
+
+    nav .menu ul li {
+        display: inline-block;
+        float: none;
+    }
+
+    section {
+        display: block;
+    }
+
+    section img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .kartu-tutor {
+        width: 50%;
+    }
+
+    .kartu-partner {
+        width: 50%;
+    }
+}
+img {
+    max-width: 40%; /* Gambar tidak akan melebihi lebar kontainer */
+    height: auto; /* Mempertahankan rasio aspek gambar */
+}
+
+form button[type="submit"] {
+    width: 100%;
+    margin-top: 20px;
+    background: #1e315c;
+    border-radius: 20px;
+    padding: 15px 20px;
+    color: #8591ae;
+    cursor: pointer;
+    font-weight: bold;
+    border: none;
+}
+
+fieldset button[type="submit"] {
+    width: 100%; /* Gunakan lebar penuh */
+    margin-top: 20px; /* Berikan jarak antara tombol Daftar dengan input */
+    background: transparent; /* Make the background transparent */
+    border-radius: 20px; /* Keep the rounded corners */
+    padding: 15px 20px;
+    color: #8591ae; /* Set the text color */
+    cursor: pointer;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 15px;
+    border: 2px solid #8591ae; /* Define the border */
+    letter-spacing: 2px;
+}
+
+fieldset button[type="submit"]:hover {
+    background: #6593c8;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s; /* Add transition effects */
+
+}

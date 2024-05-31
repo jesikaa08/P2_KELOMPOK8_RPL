@@ -1,0 +1,379 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+    font-weight: 300;
+    background-image: url("BGregistlogin.jpg");
+    background-size: cover;
+    background-position: center;
+    background-size: 400% 400%;
+    background-repeat: repeat-y, repeat-y;
+    background-attachment: fixed, fixed;
+    animation: floatBackground 10s infinite linear;
+}
+
+@keyframes floatBackground {
+    0% {
+        background-position: 0% 0%;
+    }
+    50% {
+        background-position: 50% 50%;
+    }
+    100% {
+        background-position: 0% 0%;
+    }
+}
+
+
+
+
+/* Style untuk wrapper */
+.wrapper {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Style untuk judul */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.wrapper {
+    width: 1300px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 30px;
+    font-weight: 800;
+    float: left;
+    font-family: 'Lucida Handwriting', cursive;
+    font-weight: 500px;
+    color: #102a47;
+    letter-spacing: 4px; /* Adjust the spacing as needed */
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky; 
+    top: 0;
+    background: #FFFFFF;
+    z-index: 1;
+    box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.2); /* Menambahkan efek bayangan */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    padding-left: 20px;
+}
+
+nav ul li {
+    float: left;
+}
+
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kolom .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Montserrat';
+    font-weight: 300;
+    color: #364f6b;
+}
+
+h2 {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #364f6b;
+    width: 100%;
+    line-height: 50px;
+}
+
+nav ul li a {
+    
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #1a0663;
+    cursor: pointer;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+a.tbl-biru {
+    background: #1e315c;
+    border-color: #1a0663;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s; /* Add transition effects */
+
+}
+
+a.tbl-biru:hover {
+    background: #6593c8;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s; /* Add transition effects */
+
+}
+nav ul li a:hover{
+    background: hsl(215, 57%, 79%);
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s; /* Add transition effects */
+
+}
+
+.footer {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.footer-section {
+    width: 20%;
+    margin: 0 auto;
+}
+
+h3 {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #364f6b;
+    width: 100%;
+    line-height: 50px;
+}
+
+#copyright {
+    text-align: center;
+    width: 100%;
+    padding: 50px 0px 50px 0px;
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 991.98px) {
+    .wrapper {
+        width: 90%;
+    }
+
+    .logo a {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    nav .menu {
+        width: 100%;
+        margin: 0;
+    }
+
+    nav .menu ul {
+        text-align: center;
+        margin: auto;
+        line-height: 60px;
+    }
+
+    nav .menu ul li {
+        display: inline-block;
+        float: none;
+    }
+
+    section {
+        display: block;
+    }
+
+    section img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .kartu-tutor {
+        width: 50%;
+    }
+
+    .kartu-partner {
+        width: 50%;
+    }
+}
+
+/* Gaya untuk form daftar */
+form {
+    width: 300px; /* Sesuaikan lebar sesuai kebutuhan */
+    margin: 50px auto;
+    padding: 28px;
+    border-radius: 30px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Tambahkan shadow */
+    margin-top: 20px; /* Sesuaikan dengan jarak di atas form */
+    margin-bottom: 20px; /* Sesuaikan dengan jarak di bawah form */
+   
+}
+
+header h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #1a0663;
+}
+
+.form-container {
+    width: 400px; /* Sesuaikan lebar sesuai kebutuhan */
+    margin: 50px auto; /* Mengatur posisi ke tengah secara horizontal */
+}
+
+/* Gaya untuk label dan input */
+fieldset p {
+    margin-bottom: 15px;
+}
+
+fieldset label {
+    display: block;
+    font-weight: bold;
+    color: #364f6b;
+}
+
+fieldset input[type="text"],
+fieldset input[type="password"] {
+    width: 100%; /* Gunakan lebar penuh */
+    padding: 8px; /* Sesuaikan padding sesuai kebutuhan */
+    margin-bottom: 10px; /* Berikan jarak antara input */
+    border: 1px solid #ccc; /* Tambahkan border */
+    border-radius: 5px; /* Tambahkan border-radius */
+    box-sizing: border-box; /* Pastikan padding dan border tidak menambah lebar input */
+}
+
+/* Gaya untuk tombol Daftar */
+fieldset input[type="submit"] {
+    width: 100%; /* Gunakan lebar penuh */
+    margin-top: 20px; /* Berikan jarak antara tombol Daftar dengan input */
+    background: #1e315c;
+    border-radius: 20px;
+    padding: 15px 20px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    border: none;
+}
+
+fieldset input[type="submit"]:hover {
+    background: #6593c8;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s; /* Add transition effects */
+
+}
+
+/* Gaya untuk tautan Login */
+.centered {
+    text-align: center;
+}
+
+.centered a {
+    color: #1e315c; /* Sesuaikan warna tautan dengan desain Anda */
+    font-weight: bold;
+    text-decoration: n
+    one;
+}
+
+p a.tbl-biru {
+    color: #1a0663;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+p a.tbl-biru:hover {
+    background: hsl(215, 57%, 79%);
+    text-decoration: underline;
+    transition: background-color 0.3s, color 0.3s; /* Add transition effects */
+
+}
+
+#contact {
+    background: #1e315c;
+    padding:50px 0px 50px 0px;
+}
+
+.footer {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    color: #f1f3f5;
+}
+.footer h3{
+    color: #f1f3f5;
+}
+
+
+.footer-section {
+    width: 20%;
+    margin: 0 auto;
+}
+
+h3 {
+    font-family: 'Montserrat';
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #08087d;
+    width: 100%;
+    line-height: 50px;
+}
+
+#copyright {
+    text-align: center;
+    width: 100%;
+    padding: 50px 0px 50px 0px;
+    margin-top: 50px;
+}
+
+#contact {
+    margin-top: 50px; /* Atur jarak atas dari elemen #contact */
+}
+
+#copyright {
+    margin-top: 50px; /* Atur jarak atas dari elemen #copyright */
+}
+
+
